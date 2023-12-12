@@ -1,0 +1,123 @@
+body {
+    width: 100%;
+    margin: 0;  
+    background: linear-gradient(to bottom right, rgb(8, 0, 255), rgb(255, 0, 0));
+}
+
+ul {
+    display: flex;
+    position: fixed;
+    list-style: none;
+    width: 100%;
+    padding: 0;
+    margin: 10px auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+button {
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    background: linear-gradient(
+        217deg,
+        rgba(255, 0, 0, 0.8),
+        rgba(255, 0, 0, 0) 70.71%
+      ), linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%),
+      linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
+}
+
+button:hover {
+    color: #fff;
+    background: rgb(226, 10, 10);
+}
+
+section {
+  width: 100%;
+  min-height: 400px;
+}
+
+.item-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.img-wrap {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.img-item {
+    width: 47%;
+    margin: 0 0 30px 0;
+}
+
+.gift-text {
+    width: 50%;
+    padding: 0 20px;
+    margin: 0;
+}
+
+h2, h3 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p {
+    font-family: 'Dhurjati', sans-serif;
+}
+
+
+
+.img-group {
+    width: 100%;
+    display: flex;
+}
+
+.img-podgroup {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.img-gallery {
+    width: 100%;
+}
+
+.img-single {
+    padding: 10px;
+    width: 65%;
+}
+
+#s1 {
+    display: flex; /* df */
+    align-items: center; /* aic */
+    justify-content: space-around; /* j */
+    font-size: 60px; /* fs */
+    color: #fff;
+    background: url(https://i.pinimg.com/originals/41/9e/97/419e974e5b946cc9854be1d8d3ec8513.gif) center center/cover no-repeat ;
+}
+
+.timer-wrap {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.timer-text {
+    font-size: 20px;
+}
+
+.timer__block span {
+    font-size: 70px;
+}
+
+img{ 
+ border-radius:10px;
+}
+
